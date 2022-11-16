@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(7, 220, 253);
+  border: none;
+}
+.container-fluid{
+  text-align: center;
+}
+
+intput, label{
+  display: block;
+  width: 100%;
+  
+}
+
+input:focus, label:focus{
+  outline: none;
+}
+
+a{
+  color: brown;
+}
+
+body {
+  padding-top: 5vh; /* view height -> 5% da tela */
+  background-image: url('img/R.jpg');
+  background-size: cover;
+  background-position-y: -150px;
+}
+
+#omg {
+  background-color: rgb(109, 104, 99);
+  width: 50%;
+  height: auto;
+  margin: 0;
+  justify-content: center;
+  margin-left: auto;
+border-radius: 0%;
+  margin-right: auto;
+padding: 5%;
+margin-bottom: 100px;
+margin-top: 100px;
+}
+
+#imagem {
+  justify-content: center;
+  margin-left: auto;
+  border-radius: 0%;
+  height: 20px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+footer{
+  background-color: rgb(48, 45, 45);
+  width: 100%;
+  padding: 3%;
+  height: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.texto {
+  width: 100%;
+  height: 3%;
+  padding: 0%;
+
+}
+
+.texto textarea{
+  width: 100%;
+  height: 50%;
+}
+
+/*form*/
+.main-container{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(112, 105, 96);
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.main-container h1{
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.6rem; /*adaptada ao elemento root */
+
+}
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.full-box {
+  flex: 1 1 100%;
+  position: relative;
+}
+
+.half-box {
+  flex: 1 1 45%;
+  position: relative;
+}
+
+.spacing {
+  margin-right: 2.5%;
+
+}
+
+.middle-box {
+  position: relative;
+}
+
+label{
+  font-weight: bold;
+  font-size: .8rem;
+
+}
+
+input {
+  border-bottom: 2px solid #b61b1b;
+  padding: 10px;
+  font-size: .9rem;
+  margin-bottom: 40px;
+}
+
+input:focus {
+  border-color: #E60084;
+}
+
+input[type="submit"]{
+  background-color: #E60084;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  cursor: pointer;
+}
+#agreement {
+  margin-right: 5px;
+
+}
+
+#agreement, #agreement-label {
+  display: inline-block;
+  width: auto;
+}
+
+/* validações */
+.error-validation {
+  color: red;
+  position: absolute;
+  top: 57px;
+  font-size: .8rem;
+}
+
+.template {
+  display: none;
+}

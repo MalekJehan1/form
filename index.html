@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trabalho Etapa II</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+
+   
+
+    <script src="js/scripts(1)(1).js"></script>
+
+    <nav class="navbar navbar-expand-lg" style="background-color: #b2b1e1;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#formulario">Formulário</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Relatório
+              </a>
+              <ul class="dropdown-menu" style="background-color: #6db7ec;"aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="Relatório.html">Pré Textual</a></li>
+                <li><a class="dropdown-item" href="Relatório.html">Texto</a></li>
+                <li><a class="dropdown-item" href="Relatório.html">Pós Textual</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+    <p class="error-validation template"></p>
+
+  <div id="omg">
+    <h1>HTML5</h1>
+    <img src="/img/fotoo.png" alt="Imagem do icone html5" width="100px" class="imagem">
+    <p>Criada pelo britânico Tim Berners-Lee, o acrônimo HTML significa HiperText Markup Language, traduzindo ao português: Linguagem de Marcação de Hipertexto.  O HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website. Portanto, ele serve para dar significado e organizar as informações de uma página na web. Sem isso, o navegador não saberia exibir textos como elementos ou carregar imagens e outros conteúdos.
+
+      Os hipertextos são conjuntos de elementos conectados. Esses podem ser palavras, imagens, vídeos, documento, etc. Quando conectados, formam uma rede de informações que permite a comunicação de dados, organizando conhecimentos e guardando informações.</p>
+    <h2>Para que serve HTML 5?</h2>
+      <p>Confira algumas vantagens de usar HTML 5:</p>
+
+    <p>Melhora a experiência do usuário nos navegadores mais usados (HTML5 é compatível com os navegadores Google, Safari, Firefox, etc.) e diferentes dispositivos (design responsivo).
+    Para conquistar um melhor posicionamento nos motores de busca (de fato, Google recomenda seu uso).
+HTML 5 pode ser interpretado por inúmeros sistemas informáticos.
+Permite que o Google exiba seu site com subseções na página de resultados.
+Suporta funcionalidades multimídia e interativas, como vídeos ou formulários, não requerendo plug-ins.
+Permite usar APIs de Javascript para incluir elementos complexos, como desenhos 3D ou mapas, diretamente no documento.
+Possibilidade de realizar consultas SQL
+Pode ser usado para criar aplicativos web.
+Permite otimizar o tempo de carregamento de um site.
+Melhor proteção das informações do site.</p>
+  </div>
+
+  
+  <form id="formulario">
+    <div class="main-container">
+        <div class="box">
+           <p><strong>Deixe seus dados para receber mais informações</strong></p>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Nome:</label>
+                <input type="text" class="form-control" id="validationTooltip03">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="validationTooltip02" onblur="validacaoEmail(f1.email)" aria-describedby="emailHelp">
+
+            </div>
+
+            <div class="texto">
+              <label for="text" class="form-label">Deixe um recado:</label>
+              <textarea name="text" maxlength="100" placeholder="Digite seu texto (opcional)."id="text" cols="30" rows="10"></textarea>
+            </div>
+            <center>
+                <br>
+                <button type="submit" class="btn btn-primary" onclick="verifica()">Enviar</button>
+                </br><br><br>
+                <img src="http://www.ifsul.edu.br/templates/padraogoverno01/img/img_logo_ifsul.png" width="290" alt="" class="exemplo-100">
+            </center>
+            </div>
+    </div>
+</form>
+<footer>
+  Developed by Malek Jehani
+  <br>Teached by Telmo Jr.
+</footer>
+
+</body>
+
+</html>
